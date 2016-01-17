@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63AC4701C4B7EB4005F1B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC46F1C4B7EB4005F1B12 /* main.m */; };
+		B63AC4731C4B7EB4005F1B12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC4721C4B7EB4005F1B12 /* AppDelegate.m */; };
+		B63AC4761C4B7EB4005F1B12 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC4751C4B7EB4005F1B12 /* FirstViewController.m */; };
+		B63AC4791C4B7EB4005F1B12 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC4781C4B7EB4005F1B12 /* SecondViewController.m */; };
+		B63AC47E1C4B7EB4005F1B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63AC47D1C4B7EB4005F1B12 /* Assets.xcassets */; };
+		B63AC4811C4B7EB4005F1B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63AC47F1C4B7EB4005F1B12 /* LaunchScreen.storyboard */; };
+		B63AC48C1C4B7EB4005F1B12 /* AhaNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC48B1C4B7EB4005F1B12 /* AhaNavigationBarTests.m */; };
+		B63AC4971C4B7EB4005F1B12 /* AhaNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC4961C4B7EB4005F1B12 /* AhaNavigationBarUITests.m */; };
+		B63AC4A71C4B7F30005F1B12 /* UINavigationBar+Aha.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC4A61C4B7F30005F1B12 /* UINavigationBar+Aha.m */; };
+		B63AC4A91C4B8342005F1B12 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63AC4A81C4B8342005F1B12 /* FirstViewController.xib */; };
+		B63AC4AB1C4B8354005F1B12 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63AC4AA1C4B8354005F1B12 /* SecondViewController.xib */; };
+		B63AC4B11C4B895F005F1B12 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B63AC4B01C4B895F005F1B12 /* bg.jpg */; };
+		B63AC4B31C4BB599005F1B12 /* bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B63AC4B21C4BB599005F1B12 /* bg@2x.jpg */; };
+		B63AC4B71C4BB734005F1B12 /* AhaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AC4B61C4BB734005F1B12 /* AhaHeaderView.m */; };
+		F9CBD17C0E2C665D1AB05921 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 951CF8312676676A0229C3EF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B63AC4881C4B7EB4005F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63AC4631C4B7EB4005F1B12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63AC46A1C4B7EB4005F1B12;
+			remoteInfo = AhaNavigationBar;
+		};
+		B63AC4931C4B7EB4005F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63AC4631C4B7EB4005F1B12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63AC46A1C4B7EB4005F1B12;
+			remoteInfo = AhaNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		951CF8312676676A0229C3EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63AC46B1C4B7EB4005F1B12 /* AhaNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhaNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63AC46F1C4B7EB4005F1B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B63AC4711C4B7EB4005F1B12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B63AC4721C4B7EB4005F1B12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B63AC4741C4B7EB4005F1B12 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B63AC4751C4B7EB4005F1B12 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B63AC4771C4B7EB4005F1B12 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B63AC4781C4B7EB4005F1B12 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B63AC47D1C4B7EB4005F1B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63AC4801C4B7EB4005F1B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B63AC4821C4B7EB4005F1B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63AC4871C4B7EB4005F1B12 /* AhaNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhaNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63AC48B1C4B7EB4005F1B12 /* AhaNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AhaNavigationBarTests.m; sourceTree = "<group>"; };
+		B63AC48D1C4B7EB4005F1B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63AC4921C4B7EB4005F1B12 /* AhaNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhaNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63AC4961C4B7EB4005F1B12 /* AhaNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AhaNavigationBarUITests.m; sourceTree = "<group>"; };
+		B63AC4981C4B7EB4005F1B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63AC4A51C4B7F30005F1B12 /* UINavigationBar+Aha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Aha.h"; sourceTree = "<group>"; };
+		B63AC4A61C4B7F30005F1B12 /* UINavigationBar+Aha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Aha.m"; sourceTree = "<group>"; };
+		B63AC4A81C4B8342005F1B12 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		B63AC4AA1C4B8354005F1B12 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		B63AC4B01C4B895F005F1B12 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		B63AC4B21C4BB599005F1B12 /* bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg@2x.jpg"; sourceTree = "<group>"; };
+		B63AC4B51C4BB734005F1B12 /* AhaHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AhaHeaderView.h; sourceTree = "<group>"; };
+		B63AC4B61C4BB734005F1B12 /* AhaHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AhaHeaderView.m; sourceTree = "<group>"; };
+		F214770ECD0DDE3B751BEEC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F9BA3414A530E5FFA97D4533 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63AC4681C4B7EB4005F1B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CBD17C0E2C665D1AB05921 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63AC4841C4B7EB4005F1B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63AC48F1C4B7EB4005F1B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE281B9D31A58A73A7108847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				951CF8312676676A0229C3EF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B63AC4621C4B7EB4005F1B12 = {
+			isa = PBXGroup;
+			children = (
+				B63AC4B41C4BB734005F1B12 /* AhaHeaderView */,
+				B63AC4A41C4B7F05005F1B12 /* UINavigationBar+Aha */,
+				B63AC46D1C4B7EB4005F1B12 /* AhaNavigationBar */,
+				B63AC4AF1C4B8936005F1B12 /* imgs */,
+				B63AC48A1C4B7EB4005F1B12 /* AhaNavigationBarTests */,
+				B63AC4951C4B7EB4005F1B12 /* AhaNavigationBarUITests */,
+				B63AC46C1C4B7EB4005F1B12 /* Products */,
+				F06F2189DC13C451E85B60BB /* Pods */,
+				AE281B9D31A58A73A7108847 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B63AC46C1C4B7EB4005F1B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC46B1C4B7EB4005F1B12 /* AhaNavigationBar.app */,
+				B63AC4871C4B7EB4005F1B12 /* AhaNavigationBarTests.xctest */,
+				B63AC4921C4B7EB4005F1B12 /* AhaNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63AC46D1C4B7EB4005F1B12 /* AhaNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC4711C4B7EB4005F1B12 /* AppDelegate.h */,
+				B63AC4721C4B7EB4005F1B12 /* AppDelegate.m */,
+				B63AC4741C4B7EB4005F1B12 /* FirstViewController.h */,
+				B63AC4751C4B7EB4005F1B12 /* FirstViewController.m */,
+				B63AC4A81C4B8342005F1B12 /* FirstViewController.xib */,
+				B63AC4771C4B7EB4005F1B12 /* SecondViewController.h */,
+				B63AC4781C4B7EB4005F1B12 /* SecondViewController.m */,
+				B63AC4AA1C4B8354005F1B12 /* SecondViewController.xib */,
+				B63AC47D1C4B7EB4005F1B12 /* Assets.xcassets */,
+				B63AC47F1C4B7EB4005F1B12 /* LaunchScreen.storyboard */,
+				B63AC4821C4B7EB4005F1B12 /* Info.plist */,
+				B63AC46E1C4B7EB4005F1B12 /* Supporting Files */,
+			);
+			path = AhaNavigationBar;
+			sourceTree = "<group>";
+		};
+		B63AC46E1C4B7EB4005F1B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC46F1C4B7EB4005F1B12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63AC48A1C4B7EB4005F1B12 /* AhaNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC48B1C4B7EB4005F1B12 /* AhaNavigationBarTests.m */,
+				B63AC48D1C4B7EB4005F1B12 /* Info.plist */,
+			);
+			path = AhaNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		B63AC4951C4B7EB4005F1B12 /* AhaNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC4961C4B7EB4005F1B12 /* AhaNavigationBarUITests.m */,
+				B63AC4981C4B7EB4005F1B12 /* Info.plist */,
+			);
+			path = AhaNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		B63AC4A41C4B7F05005F1B12 /* UINavigationBar+Aha */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC4A51C4B7F30005F1B12 /* UINavigationBar+Aha.h */,
+				B63AC4A61C4B7F30005F1B12 /* UINavigationBar+Aha.m */,
+			);
+			path = "UINavigationBar+Aha";
+			sourceTree = "<group>";
+		};
+		B63AC4AF1C4B8936005F1B12 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC4B21C4BB599005F1B12 /* bg@2x.jpg */,
+				B63AC4B01C4B895F005F1B12 /* bg.jpg */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		B63AC4B41C4BB734005F1B12 /* AhaHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				B63AC4B51C4BB734005F1B12 /* AhaHeaderView.h */,
+				B63AC4B61C4BB734005F1B12 /* AhaHeaderView.m */,
+			);
+			path = AhaHeaderView;
+			sourceTree = "<group>";
+		};
+		F06F2189DC13C451E85B60BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F214770ECD0DDE3B751BEEC4 /* Pods.debug.xcconfig */,
+				F9BA3414A530E5FFA97D4533 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63AC46A1C4B7EB4005F1B12 /* AhaNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63AC49B1C4B7EB4005F1B12 /* Build configuration list for PBXNativeTarget "AhaNavigationBar" */;
+			buildPhases = (
+				0AA624068278DA2A3B3BA492 /* Check Pods Manifest.lock */,
+				B63AC4671C4B7EB4005F1B12 /* Sources */,
+				B63AC4681C4B7EB4005F1B12 /* Frameworks */,
+				B63AC4691C4B7EB4005F1B12 /* Resources */,
+				AABB41FD1D84D69BA518FAC9 /* Embed Pods Frameworks */,
+				2113A51356E85A14DEB39281 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AhaNavigationBar;
+			productName = AhaNavigationBar;
+			productReference = B63AC46B1C4B7EB4005F1B12 /* AhaNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B63AC4861C4B7EB4005F1B12 /* AhaNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63AC49E1C4B7EB4005F1B12 /* Build configuration list for PBXNativeTarget "AhaNavigationBarTests" */;
+			buildPhases = (
+				B63AC4831C4B7EB4005F1B12 /* Sources */,
+				B63AC4841C4B7EB4005F1B12 /* Frameworks */,
+				B63AC4851C4B7EB4005F1B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63AC4891C4B7EB4005F1B12 /* PBXTargetDependency */,
+			);
+			name = AhaNavigationBarTests;
+			productName = AhaNavigationBarTests;
+			productReference = B63AC4871C4B7EB4005F1B12 /* AhaNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B63AC4911C4B7EB4005F1B12 /* AhaNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63AC4A11C4B7EB4005F1B12 /* Build configuration list for PBXNativeTarget "AhaNavigationBarUITests" */;
+			buildPhases = (
+				B63AC48E1C4B7EB4005F1B12 /* Sources */,
+				B63AC48F1C4B7EB4005F1B12 /* Frameworks */,
+				B63AC4901C4B7EB4005F1B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63AC4941C4B7EB4005F1B12 /* PBXTargetDependency */,
+			);
+			name = AhaNavigationBarUITests;
+			productName = AhaNavigationBarUITests;
+			productReference = B63AC4921C4B7EB4005F1B12 /* AhaNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63AC4631C4B7EB4005F1B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = vvli;
+				TargetAttributes = {
+					B63AC46A1C4B7EB4005F1B12 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B63AC4861C4B7EB4005F1B12 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B63AC46A1C4B7EB4005F1B12;
+					};
+					B63AC4911C4B7EB4005F1B12 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B63AC46A1C4B7EB4005F1B12;
+					};
+				};
+			};
+			buildConfigurationList = B63AC4661C4B7EB4005F1B12 /* Build configuration list for PBXProject "AhaNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63AC4621C4B7EB4005F1B12;
+			productRefGroup = B63AC46C1C4B7EB4005F1B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63AC46A1C4B7EB4005F1B12 /* AhaNavigationBar */,
+				B63AC4861C4B7EB4005F1B12 /* AhaNavigationBarTests */,
+				B63AC4911C4B7EB4005F1B12 /* AhaNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63AC4691C4B7EB4005F1B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AC4B11C4B895F005F1B12 /* bg.jpg in Resources */,
+				B63AC4AB1C4B8354005F1B12 /* SecondViewController.xib in Resources */,
+				B63AC4811C4B7EB4005F1B12 /* LaunchScreen.storyboard in Resources */,
+				B63AC4B31C4BB599005F1B12 /* bg@2x.jpg in Resources */,
+				B63AC4A91C4B8342005F1B12 /* FirstViewController.xib in Resources */,
+				B63AC47E1C4B7EB4005F1B12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63AC4851C4B7EB4005F1B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63AC4901C4B7EB4005F1B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA624068278DA2A3B3BA492 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2113A51356E85A14DEB39281 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABB41FD1D84D69BA518FAC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63AC4671C4B7EB4005F1B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AC4B71C4BB734005F1B12 /* AhaHeaderView.m in Sources */,
+				B63AC4791C4B7EB4005F1B12 /* SecondViewController.m in Sources */,
+				B63AC4A71C4B7F30005F1B12 /* UINavigationBar+Aha.m in Sources */,
+				B63AC4731C4B7EB4005F1B12 /* AppDelegate.m in Sources */,
+				B63AC4761C4B7EB4005F1B12 /* FirstViewController.m in Sources */,
+				B63AC4701C4B7EB4005F1B12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63AC4831C4B7EB4005F1B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AC48C1C4B7EB4005F1B12 /* AhaNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63AC48E1C4B7EB4005F1B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AC4971C4B7EB4005F1B12 /* AhaNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B63AC4891C4B7EB4005F1B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63AC46A1C4B7EB4005F1B12 /* AhaNavigationBar */;
+			targetProxy = B63AC4881C4B7EB4005F1B12 /* PBXContainerItemProxy */;
+		};
+		B63AC4941C4B7EB4005F1B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63AC46A1C4B7EB4005F1B12 /* AhaNavigationBar */;
+			targetProxy = B63AC4931C4B7EB4005F1B12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B63AC47F1C4B7EB4005F1B12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63AC4801C4B7EB4005F1B12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B63AC4991C4B7EB4005F1B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B63AC49A1C4B7EB4005F1B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63AC49C1C4B7EB4005F1B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F214770ECD0DDE3B751BEEC4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AhaNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvli.AhaNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B63AC49D1C4B7EB4005F1B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BA3414A530E5FFA97D4533 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AhaNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvli.AhaNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B63AC49F1C4B7EB4005F1B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AhaNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvli.AhaNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhaNavigationBar.app/AhaNavigationBar";
+			};
+			name = Debug;
+		};
+		B63AC4A01C4B7EB4005F1B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AhaNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvli.AhaNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhaNavigationBar.app/AhaNavigationBar";
+			};
+			name = Release;
+		};
+		B63AC4A21C4B7EB4005F1B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AhaNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvli.AhaNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AhaNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B63AC4A31C4B7EB4005F1B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AhaNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvli.AhaNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AhaNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63AC4661C4B7EB4005F1B12 /* Build configuration list for PBXProject "AhaNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63AC4991C4B7EB4005F1B12 /* Debug */,
+				B63AC49A1C4B7EB4005F1B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63AC49B1C4B7EB4005F1B12 /* Build configuration list for PBXNativeTarget "AhaNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63AC49C1C4B7EB4005F1B12 /* Debug */,
+				B63AC49D1C4B7EB4005F1B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63AC49E1C4B7EB4005F1B12 /* Build configuration list for PBXNativeTarget "AhaNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63AC49F1C4B7EB4005F1B12 /* Debug */,
+				B63AC4A01C4B7EB4005F1B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63AC4A11C4B7EB4005F1B12 /* Build configuration list for PBXNativeTarget "AhaNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63AC4A21C4B7EB4005F1B12 /* Debug */,
+				B63AC4A31C4B7EB4005F1B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63AC4631C4B7EB4005F1B12 /* Project object */;
+}
